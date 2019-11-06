@@ -9,3 +9,8 @@ script: mvn clean verify
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+
+notifications:
+  email:
+    - douglas.ferma8@gmail.com
+    - douglasfm8@hogmail.com
